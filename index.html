@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasim Munshi | Senior Magento &amp; Adobe Commerce Developer</title>
+    <meta name="author" content="Vasim Munshi">
+    <meta name="description" content="Ahmedabad-based Magento and Adobe Commerce developer with 15+ years in PHP, Magento 1/2, APIs, integrations, and e-commerce performance.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://vasimpy.github.io/">
+    <link rel="icon" href="/vasimmunshi/favicon.svg" type="image/svg+xml">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Vasim Munshi | Senior Magento &amp; Adobe Commerce Developer">
+    <meta property="og:description" content="Ahmedabad-based Magento and Adobe Commerce developer with 15+ years in PHP, Magento 1/2, APIs, integrations, and e-commerce performance.">
+    <meta property="og:url" content="https://vasimpy.github.io/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Vasim Munshi | Senior Magento &amp; Adobe Commerce Developer">
+    <meta name="twitter:description" content="Ahmedabad-based Magento and Adobe Commerce developer with 15+ years in PHP, Magento 1/2, APIs, integrations, and e-commerce performance.">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Vasim Munshi",
+            "jobTitle": "Senior Magento Developer and Adobe Commerce Developer",
+            "url": "https://vasimpy.github.io/",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ahmedabad",
+                "addressRegion": "Gujarat",
+                "addressCountry": "IN"
+            },
+            "sameAs": [
+                "https://www.linkedin.com/in/vasim-munshi-23b26041"
+            ],
+            "knowsAbout": [
+                "Magento",
+                "Adobe Commerce",
+                "PHP",
+                "Zend Framework",
+                "MySQL",
+                "E-commerce",
+                "REST APIs",
+                "SOAP APIs",
+                "AI-assisted software development"
+            ]
+        }
+    </script>
+    <!-- Google Analytics: replace G-XXXXXXXXXX with your Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4C14LPEXPH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-4C14LPEXPH');
+    </script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/vasimmunshi/script.js"></script>
+    <!-- FontAwesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/vasimmunshi/style.css">
+</head>
+<body class="bg-darkbg text-gray-100 antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-darkbg/80 backdrop-blur-md border-b border-gray-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Brand Logo -->
+                <a href="#hero" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-500 to-vibe-500 flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-105 transition-transform">
+                        VM
+                    </div>
+                    <div>
+                        <span class="font-bold text-lg tracking-tight text-white block leading-tight">Vasim Munshi</span>
+                        <span class="text-xs text-brand-400 font-mono whitespace-nowrap">Magento / Adobe Commerce</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <div class="hidden md:flex items-center space-x-4 text-sm font-medium text-gray-300">
+                    <a href="#about" class="hover:text-brand-400 transition-colors">About</a>
+                    <a href="#vibe-coding" class="hover:text-vibe-glow text-vibe-500 font-semibold flex items-center gap-1 whitespace-nowrap">
+                        <i class="fa-solid font-bold fa-wand-magic-sparkles text-xs"></i> AI Development
+                    </a>
+                    <a href="#skills" class="hover:text-brand-400 transition-colors">Skills</a>
+                    <a href="#experience" class="hover:text-brand-400 transition-colors">Experience</a>
+                    <a href="#projects" class="hover:text-brand-400 transition-colors">Portfolio</a>
+                </div>
+
+                <!-- CTA Actions -->
+                <div class="hidden md:flex items-center gap-3">
+                    <a href="#contact" class="px-4 py-2 text-xs font-semibold rounded-lg bg-gradient-to-r from-brand-500 to-vibe-500 text-white shadow-md hover:opacity-90 transition-all flex items-center gap-2">
+                        <i class="fa-solid fa-paper-plane"></i> Get in Touch
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-400 hover:text-white p-2 rounded-lg focus:outline-none">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-cardbg border-b border-gray-800 px-4 pt-2 pb-4 space-y-2 text-sm">
+            <a href="#about" class="block py-2 text-gray-300 hover:text-brand-400">About</a>
+            <a href="#vibe-coding" class="block py-2 text-vibe-500 font-semibold"><i class="fa-solid fa-wand-magic-sparkles mr-1"></i> AI-Assisted Development</a>
+            <a href="#skills" class="block py-2 text-gray-300 hover:text-brand-400">Skills Matrix</a>
+            <a href="#experience" class="block py-2 text-gray-300 hover:text-brand-400">Experience (15+ Yrs)</a>
+            <a href="#projects" class="block py-2 text-gray-300 hover:text-brand-400">Portfolio</a>
+            <a href="#contact" class="block py-2 text-brand-400 font-semibold">Contact Vasim</a>
+        </div>
+    </nav>
+
+    <main id="main-content">
+    <!-- Hero Section -->
+    <section id="hero" class="relative pt-28 pb-20 md:pt-36 md:pb-28 overflow-hidden bg-grid-pattern">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-darkbg/60 to-darkbg pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Hero Left Column -->
+                <div id="about" class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-500/10 border border-brand-500/30 text-brand-400 text-xs font-semibold tracking-wide uppercase">
+                        <span class="w-2 h-2 rounded-full bg-vibe-500 animate-ping"></span>
+                        Senior Magento &amp; Adobe Commerce Developer
+                    </div>
+
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight">
+                        Vasim Munshi
+                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-brand-400 via-cyan-300 to-vibe-500 mt-2">
+                            Senior Magento &amp; Adobe Commerce Developer
+                        </span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-gray-300 max-w-2xl leading-relaxed mx-auto lg:mx-0">
+                        Senior Magento and Adobe Commerce Developer with 15+ years of experience building and maintaining e-commerce platforms. Core expertise includes Magento 1 and 2, PHP, Zend Framework, custom modules, REST and SOAP integrations, MySQL, performance optimization, security updates, and platform upgrades. Uses AI-assisted development tools including Gemini, Claude, and Copilot to support prototyping and engineering workflows.
+                    </p>
+
+                    <!-- Key Metrics Badges -->
+                    <div class="grid grid-cols-3 gap-3 pt-2 max-w-lg mx-auto lg:mx-0">
+                        <div class="p-3 rounded-xl bg-cardbg/80 border border-cardborder text-center">
+                            <div class="text-2xl font-bold text-brand-400">15+</div>
+                            <div class="text-xs text-gray-400">Years of Experience</div>
+                        </div>
+                        <div class="p-3 rounded-xl bg-cardbg/80 border border-cardborder text-center">
+                            <div class="text-2xl font-bold text-vibe-500">100+</div>
+                            <div class="text-xs text-gray-400">Modules &amp; APIs</div>
+                        </div>
+                        <div class="p-3 rounded-xl bg-cardbg/80 border border-cardborder text-center">
+                            <div class="text-2xl font-bold text-cyan-400">AI</div>
+                            <div class="text-xs text-gray-400">AI-Assisted Development</div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#experience" class="px-6 py-3.5 rounded-xl font-semibold bg-gray-800/90 hover:bg-gray-700 text-gray-200 border border-gray-700 transition-all flex items-center gap-2">
+                            <i class="fa-solid fa-briefcase"></i> View Career History
+                        </a>
+                        <a href="https://www.linkedin.com/in/vasim-munshi-23b26041" target="_blank" rel="noopener" class="p-3.5 rounded-xl bg-gray-800/90 hover:bg-brand-600/30 text-gray-300 border border-gray-700 hover:text-brand-400 transition-colors" title="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Right Column: Interactive Card -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md bg-cardbg rounded-2xl border border-gray-800 p-6 shadow-2xl glow-effect overflow-hidden">
+                        
+                        <!-- Top Header inside Card -->
+                        <div class="flex items-center justify-between pb-4 border-b border-gray-800">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-brand-500 to-vibe-500 flex items-center justify-center text-white text-xl font-bold">
+                                    VM
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-white text-base">Vasim Munshi</h3>
+                                    <p class="text-xs text-gray-400 flex items-center gap-1">
+                                        <i class="fa-solid fa-location-dot text-brand-400"></i> Ahmedabad, India
+                                    </p>
+                                </div>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full text-[10px] font-bold tracking-wider bg-vibe-500/10 text-vibe-500 border border-vibe-500/30">
+                                Open to Opportunities
+                            </span>
+                        </div>
+
+                        <!-- Mini Tech Tag Cloud -->
+                        <div class="py-4 space-y-3">
+                            <div class="text-xs font-semibold uppercase tracking-wider text-gray-400">Previous Role</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-200 bg-gray-900/80 p-2.5 rounded-lg border border-gray-800">
+                                <i class="fa-solid fa-building text-brand-400"></i>
+                                <span><strong>Magento Developer</strong> at TCS</span>
+                            </div>
+
+                            <div class="text-xs font-semibold uppercase tracking-wider text-gray-400">Specializations</div>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span class="px-2.5 py-1 rounded-md text-xs bg-gray-800 text-brand-300 border border-gray-700">Magento 2 Enterprise</span>
+                                <span class="px-2.5 py-1 rounded-md text-xs bg-gray-800 text-vibe-500 border border-vibe-500/30 font-semibold">AI-Assisted Development</span>
+                                <span class="px-2.5 py-1 rounded-md text-xs bg-gray-800 text-cyan-300 border border-gray-700">Adobe Commerce</span>
+                                <span class="px-2.5 py-1 rounded-md text-xs bg-gray-800 text-amber-300 border border-gray-700">REST / SOAP APIs</span>
+                                <span class="px-2.5 py-1 rounded-md text-xs bg-gray-800 text-purple-300 border border-gray-700">AI Prompt Workflows</span>
+                                <span class="px-2.5 py-1 rounded-md text-xs bg-gray-800 text-gray-300 border border-gray-700">PHP 8+ / Zend</span>
+                            </div>
+                        </div>
+
+                        <!-- Interactive Terminal Snippet inside Card -->
+                        <div class="mt-2 bg-gray-950 rounded-xl p-3 font-mono text-xs text-gray-300 border border-gray-800">
+                            <div class="flex items-center gap-1.5 mb-2 text-gray-500">
+                                <span class="w-2.5 h-2.5 rounded-full bg-red-500"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-yellow-500"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-green-500"></span>
+                                <span class="ml-2 text-[10px]">vasim-vibe-terminal --bash</span>
+                            </div>
+                            <p class="text-vibe-400">$ vasim --status</p>
+                            <p class="text-gray-400">&gt; E-Commerce Architecture: Optimized</p>
+                            <p class="text-gray-400">&gt; Custom Extensions & Payment Gateways: Ready</p>
+                            <p class="text-vibe-500">&gt; AI-Assisted Development: Human-reviewed</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Highlight Section: Vibe Coding Skillset -->
+    <section id="vibe-coding" class="py-20 bg-gradient-to-b from-darkbg via-gray-900/60 to-darkbg relative border-y border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-vibe-500/10 text-vibe-500 text-xs font-bold uppercase border border-vibe-500/30">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> AI-Assisted Software Development
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                    AI-Assisted Development for E-Commerce
+                </h2>
+                <p class="text-gray-300 text-base leading-relaxed">
+                    I use AI coding assistants such as Gemini, Claude, and Copilot to support research, prototyping, code generation, and documentation. Outputs are reviewed against project requirements, Magento coding standards, security practices, and established software design principles.
+                </p>
+            </div>
+
+            <!-- 4 Pillars of Vibe Coding -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <div class="p-6 rounded-2xl bg-cardbg border border-gray-800 hover:border-vibe-500/50 transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-vibe-500/10 border border-vibe-500/30 text-vibe-500 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Prompt Architecture</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Providing code assistants with clear requirements and project context, then reviewing generated Magento 2 code for correctness, maintainability, and coding-standard compliance.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-cardbg border border-gray-800 hover:border-vibe-500/50 transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-brand-500/10 border border-brand-500/30 text-brand-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-gauge-high"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Rapid Prototyping</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Using AI-assisted workflows to explore implementation options and build prototypes for e-commerce features and API integrations.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-cardbg border border-gray-800 hover:border-vibe-500/50 transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/30 text-purple-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">AI Agent Workflows</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Integrating automated testing, refactoring bots, and AI documentation pipelines into CI/CD workflows for Adobe Commerce platforms.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-cardbg border border-gray-800 hover:border-vibe-500/50 transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Senior Oversight</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Applying engineering review, security checks, database optimization, and SOLID design principles to AI-assisted code changes.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Comprehensive Skills Matrix -->
+    <section id="skills" class="py-20 bg-gray-900/40 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-400">Technical Expertise</span>
+                <h2 class="text-3xl font-extrabold text-white">Skills & Competencies</h2>
+                <p class="text-gray-400 text-sm">
+                    Core technical skills include Magento and Adobe Commerce development, PHP, e-commerce integrations, database optimization, and AI-assisted development.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Skill Group 1: Vibe & AI Engineering -->
+                <div class="bg-cardbg rounded-2xl border border-vibe-500/30 p-6 space-y-4">
+                    <div class="flex items-center gap-3 border-b border-gray-800 pb-3">
+                        <div class="w-10 h-10 rounded-lg bg-vibe-500/10 text-vibe-500 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-sparkles"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-base">AI-Assisted Development</h3>
+                            <span class="text-xs text-vibe-400 font-mono">Modern Skillset</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-2.5 text-xs text-gray-300">
+                        <li class="flex items-center justify-between">
+                            <span>Prompt Engineering & Context Design</span>
+                            <span class="text-vibe-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>LLM Assisted Code Generation (Gemini, Claude)</span>
+                            <span class="text-vibe-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>AI Agentic Workflows & Automation</span>
+                            <span class="text-vibe-400 font-bold">Advanced</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>Rapid Technical Prototyping</span>
+                            <span class="text-vibe-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>Python for AI / Data Science</span>
+                            <span class="text-vibe-400 font-bold">Certified</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Skill Group 2: Magento & E-Commerce Core -->
+                <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-4">
+                    <div class="flex items-center gap-3 border-b border-gray-800 pb-3">
+                        <div class="w-10 h-10 rounded-lg bg-brand-500/10 text-brand-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-shopping-cart"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-base">Magento & Adobe Commerce</h3>
+                            <span class="text-xs text-brand-400 font-mono">15+ Years</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-2.5 text-xs text-gray-300">
+                        <li class="flex items-center justify-between">
+                            <span>Magento 1 & Magento 2 Enterprise</span>
+                            <span class="text-brand-400 font-bold">Architect</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>Custom Modules, Observers & Plugins</span>
+                            <span class="text-brand-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>Checkout, Catalog & Cart Customization</span>
+                            <span class="text-brand-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>Platform Version Migrations & Upgrades</span>
+                            <span class="text-brand-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>Performance Optimization & Indexing</span>
+                            <span class="text-brand-400 font-bold">Master</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Skill Group 3: Backend & Architecture -->
+                <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-4">
+                    <div class="flex items-center gap-3 border-b border-gray-800 pb-3">
+                        <div class="w-10 h-10 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-base">Backend & Integrations</h3>
+                            <span class="text-xs text-cyan-400 font-mono">Core Stack</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-2.5 text-xs text-gray-300">
+                        <li class="flex items-center justify-between">
+                            <span>PHP & Zend Framework 2</span>
+                            <span class="text-cyan-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>REST API & SOAP API Integrations</span>
+                            <span class="text-cyan-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>Payment Gateways & Shipping Providers</span>
+                            <span class="text-cyan-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>ERP / CRM Integrations</span>
+                            <span class="text-cyan-400 font-bold">Advanced</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>MySQL & Database Tuning</span>
+                            <span class="text-cyan-400 font-bold">Advanced</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Skill Group 4: Web Frontend & UI -->
+                <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-4">
+                    <div class="flex items-center gap-3 border-b border-gray-800 pb-3">
+                        <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-base">Frontend & Web Tech</h3>
+                            <span class="text-xs text-amber-400 font-mono">UI / UX</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-2.5 text-xs text-gray-300">
+                        <li class="flex items-center justify-between">
+                            <span>JavaScript / UI Components</span>
+                            <span class="text-amber-400 font-bold">Proficient</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>HTML5 / CSS3 / XML</span>
+                            <span class="text-amber-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>Magento Layout XML & Themes</span>
+                            <span class="text-amber-400 font-bold">Expert</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Skill Group 5: DevOps, Tools & Quality -->
+                <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-4">
+                    <div class="flex items-center gap-3 border-b border-gray-800 pb-3">
+                        <div class="w-10 h-10 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-code-branch"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-base">DevOps & Leadership</h3>
+                            <span class="text-xs text-purple-400 font-mono">Process</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-2.5 text-xs text-gray-300">
+                        <li class="flex items-center justify-between">
+                            <span>Git & Version Control</span>
+                            <span class="text-purple-400 font-bold">Expert</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>CI/CD Deployment Pipelines</span>
+                            <span class="text-purple-400 font-bold">Proficient</span>
+                        </li>
+                        <li class="flex items-center justify-between">
+                            <span>Team Mentoring & Code Reviews</span>
+                            <span class="text-purple-400 font-bold">Leader</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Skill Group 6: Certifications -->
+                <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-4">
+                    <div class="flex items-center gap-3 border-b border-gray-800 pb-3">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-base">Certifications</h3>
+                            <span class="text-xs text-emerald-400 font-mono">Verified</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-2.5 text-xs text-gray-300">
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-emerald-400"></i>
+                            <span>AI Automation Explorer</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-emerald-400"></i>
+                            <span>Python for Data Science</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-emerald-400"></i>
+                            <span>Crash Course on Python (Coursera)</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experience Section (15+ Years Timeline) -->
+    <section id="experience" class="py-20 bg-darkbg border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <span class="text-xs font-bold uppercase tracking-wider text-vibe-500">Track Record</span>
+                <h2 class="text-3xl font-extrabold text-white">Professional Experience</h2>
+                <p class="text-gray-400 text-sm">
+                    15+ years of experience in Magento development, PHP engineering, e-commerce integrations, and technical leadership.
+                </p>
+            </div>
+
+            <!-- Timeline -->
+            <div class="relative border-l-2 border-gray-800 ml-4 md:ml-32 space-y-12">
+                
+                <!-- Experience Item 1: TCS -->
+                <div class="relative pl-6 md:pl-8 group">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-brand-500 ring-4 ring-darkbg group-hover:scale-125 transition-transform"></div>
+                    
+                    <div class="md:absolute md:-left-36 md:top-1 text-xs font-bold text-brand-400 font-mono mb-2 md:mb-0">
+                        Dec 2025 - Oct 2026
+                    </div>
+
+                    <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 hover:border-brand-500/40 transition-all space-y-3">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <div>
+                                <h3 class="text-lg font-bold text-white">Senior Software Engineer — Adobe Commerce / Magento 2</h3>
+                                <p class="text-xs text-brand-400 font-semibold">Tata Consultancy Services (TCS)</p>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-2 text-xs text-gray-300 list-disc list-inside leading-relaxed">
+                            <li>Improved site performance and scalability through MySQL query tuning, indexing, caching, and cron/queue optimization.</li>
+                            <li>Built custom Magento 2 modules, including plugins, observers, cron jobs, and APIs, for checkout, catalog, customer, and order workflows.</li>
+                            <li>Integrated payment gateways, shipping providers, and ERP/CRM systems via RESTful and SOAP APIs.</li>
+                            <li>Resolved complex production incidents through debugging and root-cause analysis to keep stores stable.</li>
+                            <li>Shipped security patches, version upgrades, and platform migrations for Magento / Adobe Commerce.</li>
+                            <li>Contributed to requirement analysis, estimation, code review, testing, and deployment following Magento coding standards and SOLID principles.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2: Tech Mahindra -->
+                <div class="relative pl-6 md:pl-8 group">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-cyan-500 ring-4 ring-darkbg"></div>
+                    
+                    <div class="md:absolute md:-left-36 md:top-1 text-xs font-bold text-gray-400 font-mono mb-2 md:mb-0">
+                        Jul 2022 - Nov 2025
+                    </div>
+
+                    <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-3">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Senior Software Engineer — Magento Backend Lead</h3>
+                            <p class="text-xs text-cyan-400 font-semibold">Tech Mahindra (BORN Group)</p>
+                        </div>
+
+                        <ul class="space-y-2 text-xs text-gray-300 list-disc list-inside leading-relaxed">
+                            <li>Led backend Magento development for scalable enterprise eCommerce implementations.</li>
+                            <li>Architected scalable backend services on the Magento 2 framework and Zend components using object-oriented PHP.</li>
+                            <li>Improved platform performance and security across projects.</li>
+                            <li>Delivered third-party API integrations for enterprise eCommerce platforms.</li>
+                            <li>Set backend best practices and code quality standards across project teams.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3: Ebusiness Guru Limited -->
+                <div class="relative pl-6 md:pl-8 group">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-gray-600 ring-4 ring-darkbg"></div>
+                    
+                    <div class="md:absolute md:-left-36 md:top-1 text-xs font-bold text-gray-400 font-mono mb-2 md:mb-0">
+                        Jan 2017 - Jul 2022
+                    </div>
+
+                    <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-3">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Senior Software Engineer — Magento 1 &amp; 2</h3>
+                            <p class="text-xs text-gray-400 font-semibold">Ebusiness Guru Limited</p>
+                        </div>
+
+                        <ul class="space-y-2 text-xs text-gray-300 list-disc list-inside leading-relaxed">
+                            <li>Delivered Magento stores end to end, from requirements through launch and post-launch support.</li>
+                            <li>Built custom PHP extensions, checkout customizations, and payment and shipping integrations.</li>
+                            <li>Cut page load time from 6s to 2s by optimizing store performance and conversion-critical flows.</li>
+                            <li>Maintained and enhanced live stores with bug fixes, upgrades, and new features.</li>
+                            <li>Used Docker containers for consistent Magento development environments.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 4: GrapesTech Solutions -->
+                <div class="relative pl-6 md:pl-8 group">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-gray-600 ring-4 ring-darkbg"></div>
+                    
+                    <div class="md:absolute md:-left-36 md:top-1 text-xs font-bold text-gray-400 font-mono mb-2 md:mb-0">
+                        Jul 2014 - Dec 2016
+                    </div>
+
+                    <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-3">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Senior Software Engineer &amp; Team Lead</h3>
+                            <p class="text-xs text-gray-400 font-semibold">GrapesTech Solutions Pvt. Ltd.</p>
+                        </div>
+
+                        <p class="text-xs text-gray-300 leading-relaxed">
+                            Led a development team delivering Magento projects; managed task planning, estimates, code reviews, and client communication, and delivered eCommerce projects from start to launch.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 5: LinkSture Technologies -->
+                <div class="relative pl-6 md:pl-8 group">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-gray-600 ring-4 ring-darkbg"></div>
+                    
+                    <div class="md:absolute md:-left-36 md:top-1 text-xs font-bold text-gray-400 font-mono mb-2 md:mb-0">
+                        Jan 2012 - Jun 2014
+                    </div>
+
+                    <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-3">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Senior PHP / Magento Developer</h3>
+                            <p class="text-xs text-gray-400 font-semibold">LinkSture Technologies</p>
+                        </div>
+
+                        <p class="text-xs text-gray-300 leading-relaxed">
+                            Developed and customized Magento stores and PHP/MySQL web applications, including themes, modules, and third-party integrations; owned features end to end, from requirements to deployment.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 6: Capacity Web Solutions -->
+                <div class="relative pl-6 md:pl-8 group">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-gray-600 ring-4 ring-darkbg"></div>
+                    
+                    <div class="md:absolute md:-left-36 md:top-1 text-xs font-bold text-gray-400 font-mono mb-2 md:mb-0">
+                        Jun 2010 - Dec 2011
+                    </div>
+
+                    <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-3">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Junior PHP / Magento Developer</h3>
+                            <p class="text-xs text-gray-400 font-semibold">Capacity Web Solutions Pvt Ltd</p>
+                        </div>
+
+                        <p class="text-xs text-gray-300 leading-relaxed">
+                            Built and maintained Magento, WordPress, and WooCommerce websites using PHP, MySQL, JavaScript, and HTML/CSS; progressed from fundamentals to independent delivery in Magento development.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="projects" class="py-20 bg-gray-900/50 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12 space-y-3">
+                <span class="text-xs font-bold uppercase tracking-wider text-vibe-500">Portfolio</span>
+                <h2 class="text-3xl font-extrabold text-white">E-Commerce and AI Projects</h2>
+                <p class="text-gray-400 text-sm">
+                    A selection of AI and e-commerce projects.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <article class="bg-cardbg rounded-2xl border border-gray-800 p-6 flex flex-col gap-5 hover:border-brand-500/40 transition-all">
+                    <img src="/vasimmunshi/images/ai-shopping-assistant.svg" alt="Shopwise AI shopping assistant matching running shoes to a budget in a shopping chat" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover rounded-xl border border-gray-800">
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-white">AI Shopping Assistant</h3>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            An AI-powered shopping experience designed to help customers discover products and make informed purchase decisions.
+                        </p>
+                    </div>
+                    <div class="mt-auto flex flex-wrap gap-3 pt-2">
+                        <a href="https://vartual2machin-369.in.nf/ai-shopping-assistant/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-brand-500/10 border border-brand-500/30 text-brand-400 text-sm font-semibold hover:bg-brand-500/20 transition-colors">
+                            <i class="fa-solid fa-arrow-up-right-from-square mr-2" aria-hidden="true"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/vasimpy/ai-shopping-assistant" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 text-gray-300 text-sm font-semibold hover:text-white hover:border-gray-600 transition-colors">
+                            <i class="fa-brands fa-github mr-2" aria-hidden="true"></i>View on GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-cardbg rounded-2xl border border-gray-800 p-6 flex flex-col gap-5 hover:border-vibe-500/40 transition-all">
+                    <img src="/vasimmunshi/images/ecommerce-support-agent.svg" alt="CommerceAI customer-support chat showing order tracking and shipment status" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover rounded-xl border border-gray-800">
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-white">AI E-Commerce Support Agent</h3>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            An AI support agent concept for helping e-commerce customers get assistance throughout their shopping journey.
+                        </p>
+                    </div>
+                    <div class="mt-auto flex flex-wrap gap-3 pt-2">
+                        <a href="https://vartual2machin-369.in.nf/ai-support-agent/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-vibe-500/10 border border-vibe-500/30 text-vibe-400 text-sm font-semibold hover:bg-vibe-500/20 transition-colors">
+                            <i class="fa-solid fa-arrow-up-right-from-square mr-2" aria-hidden="true"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/vasimpy/AI-Ecommerce-support-agent" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 text-gray-300 text-sm font-semibold hover:text-white hover:border-gray-600 transition-colors">
+                            <i class="fa-brands fa-github mr-2" aria-hidden="true"></i>View on GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-cardbg rounded-2xl border border-gray-800 p-6 flex flex-col gap-5 hover:border-brand-500/40 transition-all md:col-span-2">
+                    <img src="/vasimmunshi/images/work-hunt-agent.png" alt="Work Hunt Agent pipeline board with leads moving from New through Enriched, Drafted, Sent, Replied, Qualified and Booked" width="2400" height="1500" loading="lazy" decoding="async" class="w-full aspect-[16/9] md:aspect-[21/9] object-cover object-top rounded-xl border border-gray-800">
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-white">Work Hunt Agent</h3>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            A five-agent pipeline built with Claude Code subagents that finds, researches, writes to and books calls with B2B clients, plus a Streamlit dashboard where every outreach email is reviewed by a human before it is sent. Guardrails for email law, sending limits and do-not-contact lists are built into the code.
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-1">
+                            <span class="text-xs font-mono px-2 py-1 rounded border border-gray-700 text-gray-400">Claude Code subagents</span>
+                            <span class="text-xs font-mono px-2 py-1 rounded border border-gray-700 text-gray-400">Python</span>
+                            <span class="text-xs font-mono px-2 py-1 rounded border border-gray-700 text-gray-400">Streamlit</span>
+                            <span class="text-xs font-mono px-2 py-1 rounded border border-gray-700 text-gray-400">Oracle Cloud</span>
+                            <span class="text-xs font-mono px-2 py-1 rounded border border-gray-700 text-gray-400">GitHub Actions</span>
+                        </div>
+                    </div>
+                    <div class="mt-auto flex flex-wrap gap-3 pt-2">
+                        <a href="https://claude.ai/artifact/52yTi4P3E7mv8mS3SLC3QN" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-brand-500/10 border border-brand-500/30 text-brand-400 text-sm font-semibold hover:bg-brand-500/20 transition-colors">
+                            <i class="fa-solid fa-arrow-up-right-from-square mr-2" aria-hidden="true"></i>View Case Study
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects & Education -->
+    <section id="enterprise-work" class="py-20 bg-gray-900/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-400">Portfolio Highlights</span>
+                <h2 class="text-3xl font-extrabold text-white">Selected E-Commerce Projects and Education</h2>
+            </div>
+
+            <div class="mb-10" data-portfolio-carousel role="region" aria-roledescription="carousel" aria-label="Portfolio projects" tabindex="0">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6" data-portfolio-slide role="group" aria-roledescription="slide" aria-label="Slide 1 of 5">
+                    <article class="overflow-hidden bg-cardbg rounded-2xl border border-gray-800 hover:border-brand-500/40 transition-all">
+                        <a href="https://www.jamaligarden.com" target="_blank" rel="noopener noreferrer" aria-label="Visit Jamali Garden website">
+                            <img src="/vasimmunshi/images/portfolio/jamali-garden.webp" alt="Homepage screenshot of Jamali Garden's event decor and floral storefront" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover brightness-125">
+                        </a>
+                        <div class="p-5 space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <h3 class="text-xl font-bold text-white">Jamali Garden</h3>
+                                <span class="text-xs text-brand-400 font-mono">E-commerce</span>
+                            </div>
+                            <p class="text-sm text-gray-300">Event decor, artificial florals, and garden accessories.</p>
+                            <a href="https://www.jamaligarden.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-brand-400 hover:text-brand-300">Visit website <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="overflow-hidden bg-cardbg rounded-2xl border border-gray-800 hover:border-brand-500/40 transition-all">
+                        <a href="https://www.aftershockplc.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Aftershock London website">
+                            <img src="/vasimmunshi/images/portfolio/aftershock-london.webp" alt="Homepage screenshot of the Aftershock London fashion storefront" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover brightness-125">
+                        </a>
+                        <div class="p-5 space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <h3 class="text-xl font-bold text-white">Aftershock London</h3>
+                                <span class="text-xs text-brand-400 font-mono">Fashion</span>
+                            </div>
+                            <p class="text-sm text-gray-300">Fashion storefront for occasionwear and accessories.</p>
+                            <a href="https://www.aftershockplc.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-brand-400 hover:text-brand-300">Visit website <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="hidden grid grid-cols-1 md:grid-cols-2 gap-6" data-portfolio-slide role="group" aria-roledescription="slide" aria-label="Slide 2 of 5" aria-hidden="true">
+                    <article class="overflow-hidden bg-cardbg rounded-2xl border border-gray-800 hover:border-brand-500/40 transition-all">
+                        <a href="https://www.gesund-gekauft.ch/" target="_blank" rel="noopener noreferrer" aria-label="Visit Gesund Gekauft website">
+                            <img src="/vasimmunshi/images/portfolio/gesund-gekauft.webp" alt="Homepage screenshot of the Gesund Gekauft Swiss health and beauty store" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover brightness-125">
+                        </a>
+                        <div class="p-5 space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <h3 class="text-xl font-bold text-white">Gesund Gekauft</h3>
+                                <span class="text-xs text-brand-400 font-mono">Health &amp; Beauty</span>
+                            </div>
+                            <p class="text-sm text-gray-300">Swiss online store for health, beauty, and nutrition products.</p>
+                            <a href="https://www.gesund-gekauft.ch/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-brand-400 hover:text-brand-300">Visit website <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="overflow-hidden bg-cardbg rounded-2xl border border-gray-800 hover:border-brand-500/40 transition-all">
+                        <a href="https://www.nustone.co.uk/" target="_blank" rel="noopener noreferrer" aria-label="Visit Nustone website">
+                            <img src="/vasimmunshi/images/portfolio/nustone.webp" alt="Homepage screenshot of Nustone's paving and outdoor landscaping store" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover brightness-125">
+                        </a>
+                        <div class="p-5 space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <h3 class="text-xl font-bold text-white">Nustone</h3>
+                                <span class="text-xs text-brand-400 font-mono">Home &amp; Garden</span>
+                            </div>
+                            <p class="text-sm text-gray-300">Online store for paving, stone, and outdoor landscaping products.</p>
+                            <a href="https://www.nustone.co.uk/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-brand-400 hover:text-brand-300">Visit website <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="hidden grid grid-cols-1 md:grid-cols-2 gap-6" data-portfolio-slide role="group" aria-roledescription="slide" aria-label="Slide 3 of 5" aria-hidden="true">
+                    <article class="overflow-hidden bg-cardbg rounded-2xl border border-gray-800 hover:border-brand-500/40 transition-all">
+                        <a href="https://www.linenzzz.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Linenzzz website">
+                            <img src="/vasimmunshi/images/portfolio/linenzzz.svg" alt="Illustration of Linenzzz bedding storefront with a softly styled bedroom and bed linen" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover">
+                        </a>
+                        <div class="p-5 space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <h3 class="text-xl font-bold text-white">Linenzzz</h3>
+                                <span class="text-xs text-brand-400 font-mono">Home &amp; Bedding</span>
+                            </div>
+                            <p class="text-sm text-gray-300">Online shop for bedding and home textiles.</p>
+                            <a href="https://www.linenzzz.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-brand-400 hover:text-brand-300">Visit website <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="overflow-hidden bg-cardbg rounded-2xl border border-gray-800 hover:border-brand-500/40 transition-all">
+                        <a href="https://ramziandco.com.au/" target="_blank" rel="noopener noreferrer" aria-label="Visit Ramzi and Co website">
+                            <img src="/vasimmunshi/images/portfolio/ramzi-and-co.webp" alt="Homepage screenshot of Ramzi and Co custom engagement rings and wedding bands" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover">
+                        </a>
+                        <div class="p-5 space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <h3 class="text-xl font-bold text-white">Ramzi &amp; Co.</h3>
+                                <span class="text-xs text-brand-400 font-mono">Fine Jewellery</span>
+                            </div>
+                            <p class="text-sm text-gray-300">Custom-designed engagement rings and wedding bands.</p>
+                            <a href="https://ramziandco.com.au/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-brand-400 hover:text-brand-300">Visit website <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="hidden grid grid-cols-1 md:grid-cols-2 gap-6" data-portfolio-slide role="group" aria-roledescription="slide" aria-label="Slide 4 of 5" aria-hidden="true">
+                    <article class="overflow-hidden bg-cardbg rounded-2xl border border-gray-800 hover:border-brand-500/40 transition-all">
+                        <a href="https://daffah.sa/en/" target="_blank" rel="noopener noreferrer" aria-label="Visit Daffah website">
+                            <img src="/vasimmunshi/images/portfolio/daffah.webp" alt="Homepage screenshot of Daffah's Saudi thobes, shemaghs, and menswear store" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover">
+                        </a>
+                        <div class="p-5 space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <h3 class="text-xl font-bold text-white">Daffah</h3>
+                                <span class="text-xs text-brand-400 font-mono">Fashion</span>
+                            </div>
+                            <p class="text-sm text-gray-300">Saudi menswear store for thobes, shemaghs, and accessories.</p>
+                            <a href="https://daffah.sa/en/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-brand-400 hover:text-brand-300">Visit website <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="overflow-hidden bg-cardbg rounded-2xl border border-gray-800 hover:border-brand-500/40 transition-all">
+                        <a href="https://bydoo.eu/" target="_blank" rel="noopener noreferrer" aria-label="Visit Bydoo website">
+                            <img src="/vasimmunshi/images/portfolio/bydoo.webp" alt="Homepage screenshot of Bydoo's pest control, garden, and household products store" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover">
+                        </a>
+                        <div class="p-5 space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <h3 class="text-xl font-bold text-white">Bydoo</h3>
+                                <span class="text-xs text-brand-400 font-mono">Home &amp; Garden</span>
+                            </div>
+                            <p class="text-sm text-gray-300">Online store for pest control, garden, and household products.</p>
+                            <a href="https://bydoo.eu/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-brand-400 hover:text-brand-300">Visit website <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="hidden grid grid-cols-1 md:grid-cols-2 gap-6" data-portfolio-slide role="group" aria-roledescription="slide" aria-label="Slide 5 of 5" aria-hidden="true">
+                    <article class="overflow-hidden bg-cardbg rounded-2xl border border-gray-800 hover:border-brand-500/40 transition-all">
+                        <a href="https://shoprefresh.cisco.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Shop Refresh Cisco website">
+                            <img src="/vasimmunshi/images/portfolio/shoprefresh-cisco.webp" alt="Homepage screenshot of Cisco Shop Refresh for refurbished Cisco equipment" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover">
+                        </a>
+                        <div class="p-5 space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <h3 class="text-xl font-bold text-white">Shop Refresh Cisco</h3>
+                                <span class="text-xs text-brand-400 font-mono">B2B E-commerce</span>
+                            </div>
+                            <p class="text-sm text-gray-300">B2B storefront for Cisco-certified refurbished equipment, built with Adobe Commerce.</p>
+                            <a href="https://shoprefresh.cisco.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-brand-400 hover:text-brand-300">Visit website <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                    <article class="overflow-hidden bg-cardbg rounded-2xl border border-gray-800 hover:border-brand-500/40 transition-all">
+                        <a href="https://btech.com/en" target="_blank" rel="noopener noreferrer" aria-label="Visit Btech website">
+                            <img src="/vasimmunshi/images/portfolio/btech.webp" alt="Homepage screenshot of Btech's electronics and home appliance store" width="1200" height="675" loading="lazy" decoding="async" class="w-full aspect-[16/9] object-cover">
+                        </a>
+                        <div class="p-5 space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <h3 class="text-xl font-bold text-white">Btech</h3>
+                                <span class="text-xs text-brand-400 font-mono">Electronics &amp; Home</span>
+                            </div>
+                            <p class="text-sm text-gray-300">Online store for electronics, appliances, and home products.</p>
+                            <a href="https://btech.com/en" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold text-brand-400 hover:text-brand-300">Visit website <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="mt-6 flex items-center justify-between gap-4">
+                    <button type="button" data-portfolio-prev class="inline-flex items-center gap-2 rounded-lg border border-gray-700 px-4 py-2 text-sm font-semibold text-gray-200 hover:border-brand-500 hover:text-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-500" aria-label="Previous portfolio slide">
+                        <i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Previous
+                    </button>
+                    <div class="flex items-center gap-2" role="group" aria-label="Choose portfolio slide">
+                        <button type="button" data-portfolio-go="0" class="h-2.5 w-2.5 rounded-full bg-brand-400" aria-label="Go to slide 1" aria-current="true"></button>
+                        <button type="button" data-portfolio-go="1" class="h-2.5 w-2.5 rounded-full bg-gray-600 hover:bg-gray-400" aria-label="Go to slide 2"></button>
+                        <button type="button" data-portfolio-go="2" class="h-2.5 w-2.5 rounded-full bg-gray-600 hover:bg-gray-400" aria-label="Go to slide 3"></button>
+                        <button type="button" data-portfolio-go="3" class="h-2.5 w-2.5 rounded-full bg-gray-600 hover:bg-gray-400" aria-label="Go to slide 4"></button>
+                        <button type="button" data-portfolio-go="4" class="h-2.5 w-2.5 rounded-full bg-gray-600 hover:bg-gray-400" aria-label="Go to slide 5"></button>
+                    </div>
+                    <span data-portfolio-status class="text-xs text-gray-400 font-mono" aria-live="polite">01 / 05</span>
+                    <button type="button" data-portfolio-next class="inline-flex items-center gap-2 rounded-lg border border-gray-700 px-4 py-2 text-sm font-semibold text-gray-200 hover:border-brand-500 hover:text-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-500" aria-label="Next portfolio slide">
+                        Next <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                <!-- Education Card -->
+                    <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-4">
+                        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                            <i class="fa-solid fa-graduation-cap text-brand-400"></i> Education
+                        </h3>
+
+                        <div class="space-y-4 text-xs">
+                            <div class="border-b border-gray-800 pb-3">
+                                <div class="flex justify-between font-bold text-gray-200">
+                                    <span>Master of Computer Applications (MCA)</span>
+                                    <span class="text-brand-400 font-mono">2010</span>
+                                </div>
+                                <p class="text-gray-400">Gujarat University • Pass</p>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between font-bold text-gray-200">
+                                    <span>Bachelor of Commerce (B.Com)</span>
+                                    <span class="text-brand-400 font-mono">2007</span>
+                                </div>
+                                <p class="text-gray-400">Gujarat University • Pass</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-cardbg rounded-2xl border border-gray-800 p-6 space-y-3">
+                        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                            <i class="fa-solid fa-users text-vibe-500"></i> Mentorship & Leadership
+                        </h3>
+                        <p class="text-xs text-gray-300 leading-relaxed">
+                            Mentored junior developers and coordinated cross-functional engineering teams during multiple Magento enterprise projects to uphold code quality, standard practices, and delivery deadlines.
+                        </p>
+                    </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-b from-darkbg to-gray-950 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="max-w-3xl mx-auto bg-cardbg rounded-2xl border border-gray-800 p-8 shadow-2xl text-center space-y-6">
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-vibe-500/10 text-vibe-500 border border-vibe-500/30">
+                    Let's Connect
+                </span>
+
+                <h2 class="text-3xl font-extrabold text-white">Contact Vasim Munshi</h2>
+                <p class="text-gray-300 text-sm max-w-xl mx-auto">
+                    Contact me about Senior Magento Developer and Adobe Commerce roles, PHP e-commerce development, custom module work, platform integrations, or AI-assisted engineering.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-left pt-4">
+                    
+                    <a href="mailto:vasim.munshi.dev@gmail.com" class="p-4 rounded-xl bg-gray-900 hover:bg-gray-800 border border-gray-800 hover:border-brand-500/40 transition-all flex items-center gap-3 group">
+                        <div class="w-10 h-10 rounded-lg bg-brand-500/10 text-brand-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="text-[10px] text-gray-400 font-semibold uppercase">Email</p>
+                            <p class="text-xs text-white font-medium truncate">vasim.munshi.dev@gmail.com</p>
+                        </div>
+                    </a>
+
+                    <a href="tel:+919016319355" class="p-4 rounded-xl bg-gray-900 hover:bg-gray-800 border border-gray-800 hover:border-vibe-500/40 transition-all flex items-center gap-3 group">
+                        <div class="w-10 h-10 rounded-lg bg-vibe-500/10 text-vibe-500 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-gray-400 font-semibold uppercase">Phone</p>
+                            <p class="text-xs text-white font-medium">+91 9016319355</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/vasim-munshi-23b26041" target="_blank" rel="noopener" class="p-4 rounded-xl bg-gray-900 hover:bg-gray-800 border border-gray-800 hover:border-cyan-500/40 transition-all flex items-center gap-3 group">
+                        <div class="w-10 h-10 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-lg">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-gray-400 font-semibold uppercase">LinkedIn</p>
+                            <p class="text-xs text-white font-medium">vasim-munshi-23b26041</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="pt-4 text-xs text-gray-500">
+                    <i class="fa-solid fa-location-dot text-brand-400 mr-1"></i> Based in Ahmedabad, INDIA • Open for Remote & Enterprise Roles
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="py-16 bg-gray-950 border-t border-gray-800">
+        <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-cardbg rounded-2xl border border-gray-800 p-8 shadow-2xl space-y-6">
+                <div class="text-center space-y-2">
+                    <h2 class="text-2xl font-extrabold text-white">Send a Message</h2>
+                    <p class="text-gray-400 text-sm">Fill in the form and I'll get back to you soon.</p>
+                </div>
+                <form id="contactForm" action="https://formsubmit.co/ajax/vasim.munshi.dev@gmail.com" method="POST" class="space-y-4">
+                    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+                    <input type="hidden" name="_subject" value="New message from your profile website">
+                    <input type="hidden" name="_captcha" value="false">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <input type="text" name="name" required maxlength="100" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg bg-gray-900 border border-gray-800 focus:border-brand-500 focus:outline-none text-sm text-white">
+                        <input type="email" name="email" required maxlength="150" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg bg-gray-900 border border-gray-800 focus:border-brand-500 focus:outline-none text-sm text-white">
+                    </div>
+                    <input type="text" name="subject" maxlength="150" placeholder="Subject" class="w-full px-4 py-3 rounded-lg bg-gray-900 border border-gray-800 focus:border-brand-500 focus:outline-none text-sm text-white">
+                    <textarea name="message" required rows="5" maxlength="2000" placeholder="Your Message" class="w-full px-4 py-3 rounded-lg bg-gray-900 border border-gray-800 focus:border-brand-500 focus:outline-none text-sm text-white"></textarea>
+                    <button type="submit" id="contactSubmit" class="w-full px-4 py-3 rounded-lg bg-gradient-to-r from-brand-500 to-vibe-500 text-white text-sm font-semibold shadow-md hover:opacity-90 transition-all">
+                        <i class="fa-solid fa-paper-plane mr-2"></i>Send Message
+                    </button>
+                    <p id="contactStatus" class="text-center text-xs"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            var form = e.target, btn = document.getElementById('contactSubmit'), status = document.getElementById('contactStatus');
+            btn.disabled = true;
+            status.className = 'text-center text-xs text-gray-400';
+            status.textContent = 'Sending...';
+            try {
+                var res = await fetch(form.action, { method: 'POST', headers: { 'Accept': 'application/json' }, body: new FormData(form) });
+                if (!res.ok) throw new Error('failed');
+                form.reset();
+                status.className = 'text-center text-xs text-green-400';
+                status.textContent = 'Thank you! Your message has been sent.';
+                if (typeof gtag === 'function') gtag('event', 'generate_lead', { method: 'contact_form' });
+            } catch (err) {
+                status.className = 'text-center text-xs text-red-400';
+                status.textContent = 'Something went wrong. Please email me directly.';
+            }
+            btn.disabled = false;
+        });
+    </script>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-950 border-t border-gray-900 text-center text-xs text-gray-500">
+        <p>© 2026 Vasim Munshi. Senior Magento and Adobe Commerce Developer. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
